@@ -1,0 +1,146 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+:root {
+    --color-primary: #3454CF;
+    --color-secondary: #fbecef;
+    --color-accent: #ffbb24;
+    --color-nav: #f8d8c7;
+    --headings-color: #597387;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    background:linear-gradient(135deg, #076585,#fff);
+    height: 100vh;
+}
+
+body h1{
+    text-align: center;
+    margin: 5rem 0;
+    color: #F5F5F5;
+}
+
+.header__wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.wavingflag{
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+
+.login__container{
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 400px;
+    box-shadow: 2px 2px 2px #FFFFFF;
+    border-radius: 5px;
+}
+
+.login__container h2{
+    color: var(--color-primary);
+    margin: 2.5rem 0;
+}
+
+.username{
+    margin: 1rem 0;
+}
+
+input{
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    border: 0.5px solid #909090;
+    width: 250px;
+}
+
+input:focus, select:focus{
+    outline: none;
+    border-color: #076585;
+}
+
+select{
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    border: 0.5px solid #909090;
+    width: 150px;
+}
+
+.submit-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.submit{
+    padding: 1.5rem 5rem;
+    border-radius: 5px;
+    border: none;
+    color: #F5F5F5;
+    background-color: var(--color-primary);
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #3453cfe5;
+}
+
+.password{
+    margin: 2.5rem 0;
+}
+
+.role{
+    margin: 2.5rem 0;
+}
+
+.register{
+    margin: 3.5rem 0;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register p{
+    color: #222222;
+}
+
+.register a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.registerb{
+    padding: 1.5rem 5rem;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem 0;
+    background-color: #36A420;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.registerb:hover{
+    background-color: #36a420de ;
+}
