@@ -30,7 +30,7 @@
     <div class="login__container">
       <h2>Login</h2>
       <div class="login__info">
-        <form action="">
+        <form action="./actions/login.php" method="POST">
           <div class="login__details">
             <div class="username">
               <input
