@@ -10,7 +10,7 @@
 body
 {
     display: flex;
-    height: 100vh;
+    /* height: auto; */
     justify-content: center;
     align-items: center;
     background:linear-gradient(135deg, #076585,#fff);
@@ -23,7 +23,19 @@ body
     width: 100%;
     background-color: #fff;
     padding:25px 30px;
-    border-radius: 5px;   
+    border-radius: 5px;  
+    margin: 5rem 0; 
+}
+
+.image__file{
+    padding: 0.5rem 1rem;
+}
+
+select {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 0.5px solid #909090;
+    width: 150px;
 }
 
 .container .title
@@ -75,9 +87,7 @@ body
     border: 1px solid black;
     padding-left: 15px;
     font-size: 16px;
-
     border-bottom-width: 2px;
-
 }
 
 .user-details .input-box input:focus,

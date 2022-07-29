@@ -57,12 +57,12 @@
             <div class="submit-wrapper">
               <button class="submit" type="submit">Login</button>
             </div>
-            <div class="register">
-              <p>Don't have an account?</p>
-              <button class="registerb"><a href="./views/register.php">Register</a></button>
-            </div>
           </div>
         </form>
+        <div class="register">
+              <p>Don't have an account?</p>
+              <a href="./views/register.php"><button class="registerb">Register</button></a>
+        </div>
       </div>
     </div>
   </body>
