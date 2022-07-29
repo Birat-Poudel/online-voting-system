@@ -1,8 +1,10 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 body
@@ -102,8 +104,6 @@ body
     cursor: pointer;
 }
 
-
-
 .genderInformation  .catogery 
 {
     display: flex;
@@ -129,15 +129,14 @@ body
     transition: all o.3s ease;
 }
 
-
-#dot-1:checked ~ .catogery label .one,
+/* #dot-1:checked ~ .catogery label .one,
 #dot-2:checked ~ .catogery label .two,
 #dot-3:checked ~ .catogery label .three
 {
     border-color: #d9d9d9;
     background-color:#076585 ;
   
-}
+} */
 
 form input[type ="radio"]
 {
