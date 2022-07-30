@@ -1,12 +1,3 @@
-<?php
-session_start();
-$data = $_SESSION['data'];
-
-?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,23 +19,6 @@ $data = $_SESSION['data'];
     <title>Online Voting System</title>
   </head>
 <body>
-    <h1 class="voting__header">Voting Center</h1>
-    <div class="container">
-      <button>Polling Information</button>
-      <a href="../views/profile.php"><button>User Profile</button></a>
-      <a href="../actions/logout.php"><button>Logout</button></a>
-    </div>
-
-    <div class="voting">
-      <div class="voting__body">
-        <div class="candidate__image"><img src="../uploads/BiratPoudel_Communication_CommManager.JPG" alt="candidate profile" /></div>
-        <div class="candidate__details">
-          <h2>Birat Poudel</h2>
-          <p>CPN UML</p>
-        </div>
-      </div>
-      <button>Vote</button>
-    </div>
     
 </body>
 </html>

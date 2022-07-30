@@ -23,7 +23,8 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Roboto", sans-serif;
-    background:linear-gradient(135deg, #076585,#fff);
+    /* background:linear-gradient(135deg, #076585,#fff); */
+    background-color: #6665ee;
     height: 100vh;
 }
 
@@ -70,7 +71,7 @@ body h1{
 input{
     padding: 1rem 2rem;
     border-radius: 5px;
-    border: 0.5px solid #909090;
+    border: 1px solid black;
     width: 250px;
 }
 

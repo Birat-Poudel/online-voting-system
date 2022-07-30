@@ -36,17 +36,17 @@
 
           <div class="input-box">
             <span class="details"> Username </span>
-            <input type="text" placeholder="Enter your name" name="username" required />
+            <input type="text" placeholder="Enter your username" name="username" required />
           </div>
 
           <div class="input-box">
-            <span class="details"> Date Of Birth </span>
-            <input type="text" placeholder="eg:2056-12-12" name="dob" required />
+            <span class="details"> Date Of Birth (YYYY-MM-DD) </span>
+            <input type="text" placeholder="Enter you DOB" name="dob" required />
           </div>
 
           <div class="input-box">
             <span class="details"> Email </span>
-            <input type="text" placeholder="www.example@email.com" name="email" required />
+            <input type="text" placeholder="Enter your email" name="email" required />
           </div>
 
           <div class="input-box">
@@ -56,12 +56,12 @@
 
           <div class="input-box">
             <span class="details"> Address </span>
-            <input type="text" placeholder="Address" name="address" required />
+            <input type="text" placeholder="Enter your address" name="address" required />
           </div>
 
           <div class="input-box">
             <span class="details"> Citizenship Number </span>
-            <input type="text" placeholder="##-##-##-#####" name="citizenshipno" required />
+            <input type="text" placeholder="Enter your citizenship no." name="citizenshipno" required />
           </div>
 
           <div class="input-box">
@@ -69,7 +69,7 @@
             <input
               type="password"
               placeholder="Password"
-              name="password"
+              name="Password"
               required
             />
           </div>

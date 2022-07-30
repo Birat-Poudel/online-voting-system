@@ -13,7 +13,8 @@ body
     /* height: auto; */
     justify-content: center;
     align-items: center;
-    background:linear-gradient(135deg, #076585,#fff);
+    /* background:linear-gradient(135deg, #076585,#fff); */
+    background-color: #6665ee;
     font-family: "Roboto", sans-serif;
 }
 
@@ -87,7 +88,7 @@ select {
     border: 1px solid black;
     padding-left: 15px;
     font-size: 16px;
-    border-bottom-width: 2px;
+    /* border-bottom-width: 1px; */
 }
 
 .user-details .input-box input:focus,
