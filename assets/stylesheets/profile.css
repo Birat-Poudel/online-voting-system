@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+    background-color: #F0F2F5;
+}
+
+.wrapper{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.profile__title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+.profile__container{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 4rem 4rem;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #8DD1F1;
+    border-radius: 15px;
+}
+
+.left__side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10rem;
+}
+
+.profile__image img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile__name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__name p:nth-child(1){
+    margin-top: 1.5rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+.profile__name p:nth-child(2){
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #222222;
+}
+
+.right__side{
+    display: flex;
+    flex-direction: column;
+}
+
+.pd__container{
+    margin-bottom: 1.5rem;
+}
+
+.pd__label{
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 0.5rem;
+}

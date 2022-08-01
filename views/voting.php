@@ -3,10 +3,6 @@ session_start();
 $data = $_SESSION['data'];
 
 ?>
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,14 +32,31 @@ $data = $_SESSION['data'];
     </div>
 
     <div class="voting">
+      <div>
+          <p class="voting__type">Mayor</p>
+      </div>
       <div class="voting__body">
         <div class="candidate__image"><img src="../uploads/BiratPoudel_Communication_CommManager.JPG" alt="candidate profile" /></div>
         <div class="candidate__details">
           <h2>Birat Poudel</h2>
           <p>CPN UML</p>
         </div>
+        <div class="voting__btn"><button>Vote</button></div>
       </div>
-      <button>Vote</button>
+    </div>
+
+    <div class="voting1">
+      <div>
+          <p class="voting__type">Deputy Mayor</p>
+      </div>
+      <div class="voting__body">
+        <div class="candidate__image"><img src="../uploads/BiratPoudel_Communication_CommManager.JPG" alt="candidate profile" /></div>
+        <div class="candidate__details">
+          <h2>Birat Poudel</h2>
+          <p>CPN UML</p>
+        </div>
+        <div class="voting__btn"><button>Vote</button></div>
+      </div>
     </div>
     
 </body>

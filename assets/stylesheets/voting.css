@@ -53,11 +53,26 @@ body {
     align-items: center;
     margin: 0 auto;
     margin-top: 10rem;
-    border: 1px solid #ADD9E6;
-    background-color: #ADD9E6;
+    border: 1px solid #8DD1F1;
+    background-color: #8DD1F1;
     padding: 3rem;
-    width: 450px;
+    width: 650px;
     border-radius: 10px;
+}
+
+.voting1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10rem;
+    border: 1px solid #CF9FFF;
+    background-color: #CF9FFF;
+    padding: 3rem;
+    width: 650px;
+    border-radius: 10px;
+    margin-bottom: 10rem;
 }
 
 .voting__body{
@@ -66,7 +81,14 @@ body {
     align-items: center;
 }
 
-.voting button{
+.voting__type{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 2rem;
+}
+
+.voting__btn button{
     padding: 1rem 5rem;
     border-radius: 5px;
     border: none;
@@ -74,17 +96,17 @@ body {
     background-color: #36A420;
     font-size: 1.6rem;
     cursor: pointer;
-    margin-top: 2.5rem;
     width: 150px;
+    margin-left: 5rem;
 }
 
-.voting button:hover{
+.voting__btn button:hover{
     background-color: #36a420de;
 }
 
 .candidate__image img{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     object-fit: cover;
     border-radius: 50%;
     margin-right: 2.5rem;
